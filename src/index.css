@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.insta-calc {
+  border: 1px solid;
+  display: flex;
+  font-variant: all-petite-caps;
+  justify-content: center;
+  padding: 0.5rem;
+  background: #f7f7f7;
+}
+
+.insta-calc input {
+  margin: 0 0.25rem;
+  width: 5rem;
+}
+
+.tg-wrapper {
+  display: grid;
+}
+
+.tg-table {
+  display: table;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+.tg-row {
+  display: table-row;
+  border: 1px solid #ccc;
+}
+
+.tg-cell {
+  display: table-cell;
+  border-right: 1px solid #000;
+}
+
+.tg-cell:last-child {
+  border-right: none;
+}
+
+.tg-total {
+  font-weight: bold;
+}
